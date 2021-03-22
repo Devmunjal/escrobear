@@ -1,0 +1,78 @@
+.h1-chart {
+    font-size: 1.5em;
+}
+
+.h2-chart {
+    font-size: 1.25em;
+}
+
+.h1-chart, 
+.h2-chart, 
+.p-chart {
+    font-family: 'Red Hat Text', sans-serif;
+    color: #303030;
+}
+
+
+
+.chart-main-div {
+    width: 90%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.btc-chart,
+.cosmos,
+.ethereum {
+    margin-top: 20px;
+    display: grid;
+    max-width: 100%;
+    height:100%;
+    min-width: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(50px, 60px) 1fr;
+    grid-template: 
+        "info"
+        "chart";
+    border-radius: 10px;
+}
+
+.btc-chart {
+    box-shadow: 10px 10px 20px 1px rgba(247,147,26,.15);
+}
+
+/* .cosmos {
+    box-shadow: 10px 10px 20px 1px rgba(46,49,72,.15);
+}
+
+.ethereum {
+    box-shadow: 10px 10px 20px 1px rgba(78,56,216,.15);
+} */
+
+.asset-info-chart {
+    grid-area: info;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5% 0 5%;
+}
+
+.title-chart {
+    display: inline-flex;
+}
+
+.h1-chart {
+    margin-left: 10px;
+}
+
+#btcChart,
+#cosmosChart,
+#ethereumChart {
+    grid-area: chart;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: auto;
+}

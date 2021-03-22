@@ -1,0 +1,42 @@
+.Bitcoin-Img-selcted{
+    width: 100px;
+}
+.eth-coin-selcted{
+    width:100px
+}
+.xrp-coin-selcted{
+    width:100px
+}
+.Bitcoin-Img-unselcted{
+    width: 100px;
+    opacity: .2;
+}
+.xrp-coin-unselcted{
+    width: 100px;
+    opacity: .2;
+}
+.eth-coin-unselcted{
+    width:100px;
+    opacity: .2;
+}
+@media screen and (max-width: 600px) {
+    .Bitcoin-Img-selcted{
+        width: 80%;
+    }
+    .Bitcoin-Img-unselcted{
+        width: 80%;
+    }
+    .eth-coin-selcted{
+        width:80%
+    }
+    .eth-coin-unselcted{
+        width:80%
+    }
+    .xrp-coin-selcted{
+        width:80%
+    }
+    .xrp-coin-unselcted{
+        width:80%
+    }
+  }
+  
